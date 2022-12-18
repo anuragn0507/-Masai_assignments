@@ -8,4 +8,7 @@ function addToWallet(){
     let total = +JSON.parse(localStorage.getItem("amount"));
     total += amount;
     localStorage.setItem("amount", total);
+
+    document.getElementById("amount").innerHTML = "";
+    console.log(document.getElementById("amount"));
 }

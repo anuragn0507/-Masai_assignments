@@ -1,0 +1,6 @@
+#navbar{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:rgb(63, 202, 202);
+}
